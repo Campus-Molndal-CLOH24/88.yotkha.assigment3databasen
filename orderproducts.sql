@@ -1,5 +1,5 @@
 -- Active: 1728752329110@@localhost@3306@orderproducts
-/*
+
 CREATE TABLE client (
     client_id INT AUTO_INCREMENT PRIMARY KEY,
     client_name VARCHAR(255) NOT NULL,
@@ -77,7 +77,7 @@ INSERT INTO order_detail (order_id, product_id, quantity, price) VALUES
 (3, 3, 1, 199.99),  -- Headphones for Charlie
 (4, 5, 1, 299.99),  -- Tablet for Diana
 (5, 1, 1, 999.99),  -- Laptop for Ethan
-(5, 4, 1, 249.99);  -- Smartwatch for Ethan*/
+(5, 4, 1, 249.99);  -- Smartwatch for Ethan
 
 
 
@@ -102,5 +102,5 @@ HAVING
 ORDER BY 
     total_order_price DESC;
 
---RENAME TABLE `order` TO `orders`;
+RENAME TABLE `order` TO `orders`;
 
