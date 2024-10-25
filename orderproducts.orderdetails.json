@@ -1,0 +1,170 @@
+[{
+  "_id": {
+    "$oid": "671bfaa51a88d9a8523f5062"
+  },
+  "clients": [
+    {
+      "client_id": 1,
+      "client_name": "Alice Smith",
+      "client_email": "alice.smith@example.com",
+      "client_phone": "123-456-7890"
+    },
+    {
+      "client_id": 2,
+      "client_name": "Bob Johnson",
+      "client_email": "bob.johnson@example.com",
+      "client_phone": "987-654-3210"
+    },
+    {
+      "client_id": 3,
+      "client_name": "Charlie Brown",
+      "client_email": "charlie.brown@example.com",
+      "client_phone": "555-555-5555"
+    },
+    {
+      "client_id": 4,
+      "client_name": "Diana Prince",
+      "client_email": "diana.prince@example.com",
+      "client_phone": "666-666-6666"
+    },
+    {
+      "client_id": 5,
+      "client_name": "Edward Elric",
+      "client_email": "edward.elric@example.com",
+      "client_phone": "777-777-7777"
+    }
+  ],
+  "products": [
+    {
+      "product_id": 1,
+      "product_name": "Widget A",
+      "product_description": "A useful widget",
+      "product_price": 19.99
+    },
+    {
+      "product_id": 2,
+      "product_name": "Widget B",
+      "product_description": "An even better widget",
+      "product_price": 29.99
+    },
+    {
+      "product_id": 3,
+      "product_name": "Gadget C",
+      "product_description": "A gadget that does things",
+      "product_price": 39.99
+    },
+    {
+      "product_id": 4,
+      "product_name": "Gadget D",
+      "product_description": "A gadget that does more things",
+      "product_price": 49.99
+    },
+    {
+      "product_id": 5,
+      "product_name": "Thingamajig E",
+      "product_description": "A thingamajig that works",
+      "product_price": 59.99
+    }
+  ],
+  "transportation": [
+    {
+      "transportation_id": 1,
+      "transportation_name": "FedEx"
+    },
+    {
+      "transportation_id": 2,
+      "transportation_name": "UPS"
+    },
+    {
+      "transportation_id": 3,
+      "transportation_name": "DHL"
+    },
+    {
+      "transportation_id": 4,
+      "transportation_name": "USPS"
+    },
+    {
+      "transportation_id": 5,
+      "transportation_name": "Royal Mail"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 1,
+      "order_date": "2024-10-01",
+      "order_status": "Shipped",
+      "order_total": 89.97,
+      "client_id": 1,
+      "transportation_id": 2
+    },
+    {
+      "order_id": 2,
+      "order_date": "2024-10-02",
+      "order_status": "Pending",
+      "order_total": 39.99,
+      "client_id": 2,
+      "transportation_id": 1
+    },
+    {
+      "order_id": 3,
+      "order_date": "2024-10-03",
+      "order_status": "Delivered",
+      "order_total": 49.99,
+      "client_id": 3,
+      "transportation_id": 3
+    },
+    {
+      "order_id": 4,
+      "order_date": "2024-10-04",
+      "order_status": "Cancelled",
+      "order_total": 29.99,
+      "client_id": 4,
+      "transportation_id": 4
+    },
+    {
+      "order_id": 5,
+      "order_date": "2024-10-05",
+      "order_status": "Completed",
+      "order_total": 19.99,
+      "client_id": 5,
+      "transportation_id": 5
+    }
+  ],
+  "order_details": [
+    {
+      "order_detail_id": 1,
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 2,
+      "price": 39.98
+    },
+    {
+      "order_detail_id": 2,
+      "order_id": 1,
+      "product_id": 2,
+      "quantity": 1,
+      "price": 29.99
+    },
+    {
+      "order_detail_id": 3,
+      "order_id": 2,
+      "product_id": 3,
+      "quantity": 1,
+      "price": 39.99
+    },
+    {
+      "order_detail_id": 4,
+      "order_id": 3,
+      "product_id": 4,
+      "quantity": 1,
+      "price": 49.99
+    },
+    {
+      "order_detail_id": 5,
+      "order_id": 4,
+      "product_id": 5,
+      "quantity": 1,
+      "price": 59.99
+    }
+  ]
+}]
