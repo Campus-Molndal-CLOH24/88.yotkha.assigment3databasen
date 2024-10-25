@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "671bfaa51a88d9a8523f5062"
+    ObjectId("...")
   },
   "clients": [
     {
